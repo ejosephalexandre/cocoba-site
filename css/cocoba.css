@@ -197,7 +197,16 @@ header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-weight: 700;
+}
+
+header .header-content .header-content-inner h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-weight: 500;
 }
 
 header .header-content .header-content-inner hr {
@@ -323,7 +332,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f05f40;
+    color: #337ab7;
 }
 
 .no-gutter > [class*=col-] {
@@ -385,9 +394,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #337ab7;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #337ab7;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -428,12 +437,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #f05f40;
+    border-color: #337ab7;
+    background-color: #337ab7;
 }
 
 .btn-primary .badge {
-    color: #f05f40;
+    color: #337ab7;
     background-color: #fff;
 }
 
@@ -473,4 +482,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.map {
+    height: 500px;
 }
